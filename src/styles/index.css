@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+:root {
+ --preto:#1c1c19;
+ --marrom-escuro:#4f4541;
+ --marrom-claro:#8d4e20;
+ --off-white:#f0ede9;
+ --branco:#ffffff;
+ --laranja-claro: #feab75;
+
+ --font-titulo: 'Kaushan Script', serif;
+ --font-texto:'plus-jakarta-sans', sans-serif;
+
+
+}
+
+body{
+  font-family: var(--font-texto);
+  background-color: var(--off-white);
+  color: var(--preto);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}

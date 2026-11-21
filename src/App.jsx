@@ -1,9 +1,11 @@
+import AnnouncementBar from './components/Announcement Bar/index.tsx';
 
 function App() {
   
   return (
-  <h1>Origem & Grãos</h1>
-    
+    <header>
+      <AnnouncementBar />
+    </header>
   )
 }
 
