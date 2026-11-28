@@ -17,7 +17,7 @@ export const AnnouncementBar = () => {
         role="banner"
       >
         <div className="announcement-bar-track absolute left-0 top-0 flex h-[20px] w-max items-center [animation:announcement-bar-right_28s_linear_infinite]">
-          <p className="m-0 whitespace-nowrap px-12 text-center text-[6.5px] font-extrabold leading-none tracking-[0.25px]">
+          <p className="m-0 whitespace-nowrap px-12 text-center text-[9px] font-extrabold leading-none tracking-[0.25px]">
             FRETE GRÁTIS PARA TODO O BRASIL EM COMPRAS ACIMA DE R$ 200
             <span aria-hidden="true" className="mx-1 inline-block"> • </span>
             GANHE 10% DE DESCONTO NA PRIMEIRA COMPRA!
